@@ -2,6 +2,7 @@
 const nextConfig = {
   /* config options here */
   reactCompiler: true,
+  agentRules: false,
   turbopack: {
     rules: {
       "*.css": {
